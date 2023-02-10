@@ -8,7 +8,7 @@ function Launch () {
       clientId: "49404fbc-de2c-4030-bfc3-207fde3226e2",
       scope: "patient/Patient.read patient/Observation.read launch online_access openid profile",
       iss:"https://fhir-ehr-code.cerner.com/dstu2/ec2458f2-1e24-41c8-b71b-0e701af7583d",
-      redirectUri: "http://10.10.13.14:3444/patientDetails",
+      redirectUri: "https://p_398352.livecycle.dev/patientDetails",
       launch:"f5ff1bd2-34e6-4774-a03e-3a989b20bf91",
       response_type:"code"
     });
